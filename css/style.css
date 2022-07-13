@@ -106,6 +106,7 @@ body {
 
 body.lock {
   overflow: hidden;
+  -webkit-overflow-scrolling: hidden;
 }
 
 .container {
@@ -3981,7 +3982,7 @@ button.icon-menu {
 .counter__button {
   background: url("../img/icons/arrow-counter.svg") center no-repeat;
   width: 2.8125em;
-  min-height: 1.40625em;
+  height: 1.75em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4676,6 +4677,10 @@ button.icon-menu {
     flex: 1 1 auto;
     padding: 0.78125em 1.875em;
     font-size: 1.125em;
+  }
+
+  .counter__button {
+    height: 2.1875em;
   }
 
   .intro-item-products__nav {
