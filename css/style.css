@@ -106,7 +106,6 @@ body {
 
 body.lock {
   overflow: hidden;
-  overflow-x: hidden;
 }
 
 .container {
@@ -4855,7 +4854,7 @@ button.icon-menu {
     width: 100%;
     background-color: #2B3143;
     height: 100%;
-    overflow: auto;
+    overflow-y: auto;
     overflow-x: hidden;
   }
 
@@ -4922,7 +4921,7 @@ button.icon-menu {
     left: -100%;
     background-color: #2B3143;
     transition: all 0.3s ease;
-    overflow: auto;
+    overflow-y: auto;
     overflow-x: hidden;
     padding: 6.25em 0.9375em 0 0.9375em;
   }
