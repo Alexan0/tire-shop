@@ -3981,7 +3981,7 @@ button.icon-menu {
 .counter__button {
   background: url("../img/icons/arrow-counter.svg") center no-repeat;
   width: 2.8125em;
-  height: 1.75em;
+  min-height: 1.40625em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4720,8 +4720,8 @@ button.icon-menu {
 
 @media (max-width: 47.99875em) {
   .wrapper.lock {
-    position: fixed;
     overflow: hidden;
+    position: fixed;
     width: 100%;
   }
 
