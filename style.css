@@ -1992,7 +1992,6 @@ button.icon-menu {
   font-size: 0.875em;
   line-height: 1em;
   transition: all 0.3s ease 0s;
-  color: #1A1E29;
 }
 
 .select.filter-select {
@@ -2001,7 +2000,6 @@ button.icon-menu {
 
 .select option {
   font-weight: 400;
-  color: #1A1E29;
   font-size: 14px;
   line-height: 16px;
 }
