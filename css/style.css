@@ -651,6 +651,11 @@ textarea.form__input {
   white-space: nowrap;
 }
 
+.checkbox__label-form-agree {
+  color: #fff;
+  white-space: inherit;
+}
+
 .checkbox.error .checkbox__label::before {
   box-shadow: 0 0 15px red;
 }
@@ -1187,6 +1192,11 @@ textarea::placeholder {
 
 .header.hide {
   transform: translateY(-90px);
+}
+
+.header.show-header {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .menu-header__list {
@@ -2323,6 +2333,7 @@ button.icon-menu {
   line-height: 1em;
   display: flex;
   align-items: center;
+  color: #6A6A6A;
 }
 
 .stat-tire-item__comments::before {
